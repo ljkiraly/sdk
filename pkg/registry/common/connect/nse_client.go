@@ -24,7 +24,7 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/clientconn"
+	"github.com/ljkiraly/sdk/pkg/registry/common/clientconn"
 )
 
 const errNoCCProvidedMsg = "no grpc.ClientConnInterface provided"

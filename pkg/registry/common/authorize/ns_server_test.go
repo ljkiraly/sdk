@@ -28,10 +28,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/authorize"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/grpcmetadata"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/nanoid"
+	"github.com/ljkiraly/sdk/pkg/registry/common/authorize"
+	"github.com/ljkiraly/sdk/pkg/registry/common/grpcmetadata"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/tools/nanoid"
 
 	"go.uber.org/goleak"
 )

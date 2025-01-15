@@ -20,9 +20,9 @@ package passthrough
 import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/passthrough/replacelabels"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/passthrough/replacensename"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/passthrough/replacelabels"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/passthrough/replacensename"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
 )
 
 // NewClient returns a combination for passthrough cases

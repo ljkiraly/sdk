@@ -23,9 +23,9 @@ import (
 
 	"github.com/miekg/dns"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/next"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 // NewDNSHandler creates a new dnshandler that simply connects to the endpoint by passed url

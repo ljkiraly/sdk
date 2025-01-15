@@ -23,16 +23,16 @@ import (
 	"net"
 	"net/url"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/clienturlctx"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/clienturlctx"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/interdomain"
+	"github.com/ljkiraly/sdk/pkg/tools/interdomain"
 
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/streamcontext"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/registry/core/streamcontext"
 )
 
 type dnsNSEResolveServer struct {

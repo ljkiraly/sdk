@@ -26,7 +26,7 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	opentelemetry "go.opentelemetry.io/otel/trace"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 // Span - unified interface for opentelemetry spans

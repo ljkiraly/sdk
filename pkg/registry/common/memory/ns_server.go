@@ -30,8 +30,8 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/matchutils"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/tools/matchutils"
 )
 
 type memoryNSServer struct {

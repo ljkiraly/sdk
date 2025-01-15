@@ -32,13 +32,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/dnsconfigs"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/fanout"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/memory"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/noloop"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/searches"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/dnsconfigs"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/fanout"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/memory"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/next"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/noloop"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/searches"
 )
 
 func requireIPv4Lookup(ctx context.Context, t *testing.T, r *net.Resolver, host, expected string) {

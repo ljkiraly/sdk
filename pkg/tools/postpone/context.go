@@ -20,8 +20,8 @@ package postpone
 import (
 	"context"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/clock"
-	"github.com/networkservicemesh/sdk/pkg/tools/extend"
+	"github.com/ljkiraly/sdk/pkg/tools/clock"
+	"github.com/ljkiraly/sdk/pkg/tools/extend"
 )
 
 // Context returns a function providing the context with the same timeout as ctx has at this moment.

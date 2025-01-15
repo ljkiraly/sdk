@@ -26,7 +26,7 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/registry"
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
 )
 
 type interdomainBypassNSEServer struct {

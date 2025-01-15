@@ -24,8 +24,8 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/begin"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/begin"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 type eventLoop struct {

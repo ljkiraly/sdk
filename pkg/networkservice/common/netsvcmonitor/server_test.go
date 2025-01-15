@@ -28,13 +28,13 @@ import (
 	"go.uber.org/goleak"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/begin"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/netsvcmonitor"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/count"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/memory"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/adapters"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/begin"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/netsvcmonitor"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/count"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/registry/common/memory"
+	"github.com/ljkiraly/sdk/pkg/registry/core/adapters"
 )
 
 func Test_Netsvcmonitor_And_GroupOfSimilarNetworkServices(t *testing.T) {

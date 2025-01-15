@@ -25,8 +25,8 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/interdomain"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils"
+	"github.com/ljkiraly/sdk/pkg/tools/interdomain"
 )
 
 // Option configures vl3DNSServer

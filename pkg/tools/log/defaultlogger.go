@@ -22,7 +22,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/stringutils"
+	"github.com/ljkiraly/sdk/pkg/tools/stringutils"
 )
 
 type defaultLogger struct {

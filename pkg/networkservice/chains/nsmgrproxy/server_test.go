@@ -32,16 +32,16 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/client"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/clienturl"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/connect"
-	kernelmech "github.com/networkservicemesh/sdk/pkg/networkservice/common/mechanisms/kernel"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/checks/checkrequest"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/adapters"
-	"github.com/networkservicemesh/sdk/pkg/tools/interdomain"
-	"github.com/networkservicemesh/sdk/pkg/tools/sandbox"
+	"github.com/ljkiraly/sdk/pkg/networkservice/chains/client"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/clienturl"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/connect"
+	kernelmech "github.com/ljkiraly/sdk/pkg/networkservice/common/mechanisms/kernel"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/checks/checkrequest"
+	"github.com/ljkiraly/sdk/pkg/registry/core/adapters"
+	"github.com/ljkiraly/sdk/pkg/tools/interdomain"
+	"github.com/ljkiraly/sdk/pkg/tools/sandbox"
 )
 
 // TestNSMGR_InterdomainUseCase covers simple interdomain scenario:

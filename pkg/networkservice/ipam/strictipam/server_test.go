@@ -24,11 +24,11 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/ipam/point2pointipam"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/ipam/strictipam"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/checks/checkrequest"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/ipam/point2pointipam"
+	"github.com/ljkiraly/sdk/pkg/networkservice/ipam/strictipam"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/checks/checkrequest"
 )
 
 func newRequest(connID string) *networkservice.NetworkServiceRequest {

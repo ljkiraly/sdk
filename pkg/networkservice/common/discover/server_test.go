@@ -31,14 +31,14 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice/payload"
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/discover"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/checks/checkcontext"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/memory"
-	registryadapters "github.com/networkservicemesh/sdk/pkg/registry/core/adapters"
-	registrynext "github.com/networkservicemesh/sdk/pkg/registry/core/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/clienturlctx"
-	"github.com/networkservicemesh/sdk/pkg/tools/matchutils"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/discover"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/checks/checkcontext"
+	"github.com/ljkiraly/sdk/pkg/registry/common/memory"
+	registryadapters "github.com/ljkiraly/sdk/pkg/registry/core/adapters"
+	registrynext "github.com/ljkiraly/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/tools/clienturlctx"
+	"github.com/ljkiraly/sdk/pkg/tools/matchutils"
 )
 
 const (

@@ -27,9 +27,9 @@ import (
 
 	"github.com/edwarnicke/genericsync"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/ippool"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/tools/ippool"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 type vl3Server struct {

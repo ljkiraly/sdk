@@ -24,18 +24,18 @@ import (
 
 	registryapi "github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/registry"
-	registryauthorize "github.com/networkservicemesh/sdk/pkg/registry/common/authorize"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/begin"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/clientconn"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/connect"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/dial"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/dnsresolve"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/grpcmetadata"
+	"github.com/ljkiraly/sdk/pkg/registry"
+	registryauthorize "github.com/ljkiraly/sdk/pkg/registry/common/authorize"
+	"github.com/ljkiraly/sdk/pkg/registry/common/begin"
+	"github.com/ljkiraly/sdk/pkg/registry/common/clientconn"
+	"github.com/ljkiraly/sdk/pkg/registry/common/connect"
+	"github.com/ljkiraly/sdk/pkg/registry/common/dial"
+	"github.com/ljkiraly/sdk/pkg/registry/common/dnsresolve"
+	"github.com/ljkiraly/sdk/pkg/registry/common/grpcmetadata"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/updatepath"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
+	"github.com/ljkiraly/sdk/pkg/registry/common/updatepath"
+	"github.com/ljkiraly/sdk/pkg/registry/core/chain"
+	"github.com/ljkiraly/sdk/pkg/tools/token"
 )
 
 type serverOptions struct {

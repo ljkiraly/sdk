@@ -30,7 +30,7 @@ import (
 	kernelmech "github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/sandbox"
+	"github.com/ljkiraly/sdk/pkg/tools/sandbox"
 )
 
 func defaultRegistryService(name string) *registry.NetworkService {

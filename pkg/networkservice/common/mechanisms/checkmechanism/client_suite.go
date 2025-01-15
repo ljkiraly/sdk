@@ -24,8 +24,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/checks/checkerror"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/checks/checkopts"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/checks/checkerror"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/checks/checkopts"
 )
 
 // ClientSuite - test suite to check that a NetworkServiceClient implementing a Mechanism meets basic contracts

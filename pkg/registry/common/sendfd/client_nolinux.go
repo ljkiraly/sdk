@@ -26,7 +26,7 @@ package sendfd
 import (
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/null"
+	"github.com/ljkiraly/sdk/pkg/registry/common/null"
 )
 
 // NewNetworkServiceEndpointRegistryClient - creates a Client that if endpoint.Url is of scheme "unix" will replace it with an "inode" scheme url and send the FD over the unix socket

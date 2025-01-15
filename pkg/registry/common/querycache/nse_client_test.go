@@ -29,12 +29,12 @@ import (
 	"go.uber.org/goleak"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/memory"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/querycache"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/adapters"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/clock"
-	"github.com/networkservicemesh/sdk/pkg/tools/clockmock"
+	"github.com/ljkiraly/sdk/pkg/registry/common/memory"
+	"github.com/ljkiraly/sdk/pkg/registry/common/querycache"
+	"github.com/ljkiraly/sdk/pkg/registry/core/adapters"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/tools/clock"
+	"github.com/ljkiraly/sdk/pkg/tools/clockmock"
 )
 
 const (

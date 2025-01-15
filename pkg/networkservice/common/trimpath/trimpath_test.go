@@ -23,12 +23,12 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/metadata"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/trimpath"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/updatepath"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/adapters"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/trimpath"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/updatepath"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/adapters"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
 )
 
 // updatepath.NewServer() should 'trim' the path to terminate with itself if and only if it's not a 'passthrough'

@@ -29,9 +29,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/checks/checkcontext"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/checks/checkcontext"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/cls"
@@ -43,10 +43,10 @@ import (
 	"go.uber.org/goleak"
 	"gonum.org/v1/gonum/stat/combin"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/mechanisms"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/null"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/inject/injecterror"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/mechanisms"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/null"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/inject/injecterror"
 )
 
 func server() networkservice.NetworkServiceServer {

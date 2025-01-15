@@ -37,17 +37,17 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/ipam/strictvl3ipam"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/client"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/connectioncontext/dnscontext/vl3dns"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/connectioncontext/ipcontext/vl3"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/checks/checkrequest"
-	"github.com/networkservicemesh/sdk/pkg/tools/clock"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/memory"
-	"github.com/networkservicemesh/sdk/pkg/tools/interdomain"
-	"github.com/networkservicemesh/sdk/pkg/tools/ippool"
-	"github.com/networkservicemesh/sdk/pkg/tools/sandbox"
+	"github.com/ljkiraly/sdk/pkg/ipam/strictvl3ipam"
+	"github.com/ljkiraly/sdk/pkg/networkservice/chains/client"
+	"github.com/ljkiraly/sdk/pkg/networkservice/connectioncontext/dnscontext/vl3dns"
+	"github.com/ljkiraly/sdk/pkg/networkservice/connectioncontext/ipcontext/vl3"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/checks/checkrequest"
+	"github.com/ljkiraly/sdk/pkg/tools/clock"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/memory"
+	"github.com/ljkiraly/sdk/pkg/tools/interdomain"
+	"github.com/ljkiraly/sdk/pkg/tools/ippool"
+	"github.com/ljkiraly/sdk/pkg/tools/sandbox"
 )
 
 const (

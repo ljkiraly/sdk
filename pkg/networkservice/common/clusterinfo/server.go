@@ -25,7 +25,7 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"gopkg.in/yaml.v2"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
 )
 
 type clusterinfoServer struct {

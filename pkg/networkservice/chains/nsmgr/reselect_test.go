@@ -25,10 +25,10 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/client"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/nsmgr"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/count"
-	"github.com/networkservicemesh/sdk/pkg/tools/sandbox"
+	"github.com/ljkiraly/sdk/pkg/networkservice/chains/client"
+	"github.com/ljkiraly/sdk/pkg/networkservice/chains/nsmgr"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/count"
+	"github.com/ljkiraly/sdk/pkg/tools/sandbox"
 )
 
 // Even if NSMgr has restarted,

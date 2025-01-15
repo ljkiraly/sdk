@@ -24,8 +24,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spiffe/go-spiffe/v2/spiffeid"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/grpcmetadata"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/registry/common/grpcmetadata"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 // RegistryOpaInput represents input for policies in authorizNSEServer and authorizeNSServer

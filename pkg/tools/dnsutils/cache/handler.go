@@ -25,9 +25,9 @@ import (
 	"github.com/edwarnicke/genericsync"
 	"github.com/miekg/dns"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/next"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 type dnsCacheHandler struct {

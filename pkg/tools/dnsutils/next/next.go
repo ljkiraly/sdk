@@ -22,7 +22,7 @@ import (
 
 	"github.com/miekg/dns"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils"
 )
 
 type nextDNSHandler struct {

@@ -24,10 +24,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/peer"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/extend"
-	"github.com/networkservicemesh/sdk/pkg/tools/postpone"
+	"github.com/ljkiraly/sdk/pkg/tools/extend"
+	"github.com/ljkiraly/sdk/pkg/tools/postpone"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
 )
 
 type connectionState int

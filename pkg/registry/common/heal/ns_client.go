@@ -27,8 +27,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/begin"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/registry/common/begin"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
 )
 
 type healNSClient struct {

@@ -24,7 +24,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/eventchannel"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/eventchannel"
 )
 
 func TestMonitorConnection_MonitorConnectionsServer_Send(t *testing.T) {

@@ -29,15 +29,15 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/nsmgr"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/nsmgrproxy"
-	"github.com/networkservicemesh/sdk/pkg/registry"
-	"github.com/networkservicemesh/sdk/pkg/registry/chains/memory"
-	"github.com/networkservicemesh/sdk/pkg/registry/chains/proxydns"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/dnsresolve"
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
+	"github.com/ljkiraly/sdk/pkg/networkservice/chains/nsmgr"
+	"github.com/ljkiraly/sdk/pkg/networkservice/chains/nsmgrproxy"
+	"github.com/ljkiraly/sdk/pkg/registry"
+	"github.com/ljkiraly/sdk/pkg/registry/chains/memory"
+	"github.com/ljkiraly/sdk/pkg/registry/chains/proxydns"
+	"github.com/ljkiraly/sdk/pkg/registry/common/dnsresolve"
+	"github.com/ljkiraly/sdk/pkg/tools/grpcutils"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/token"
 )
 
 // Builder implements builder pattern for building NSM Domain

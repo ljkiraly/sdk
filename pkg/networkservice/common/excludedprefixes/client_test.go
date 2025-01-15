@@ -28,16 +28,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/excludedprefixes"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/adapters"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/ipam/point2pointipam"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/ipam/strictipam"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/checks/checkconnection"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/checks/checkrequest"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/inject/injecterror"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/inject/injectexcludedprefixes"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/inject/injectipcontext"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/excludedprefixes"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/adapters"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/ipam/point2pointipam"
+	"github.com/ljkiraly/sdk/pkg/networkservice/ipam/strictipam"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/checks/checkconnection"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/checks/checkrequest"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/inject/injecterror"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/inject/injectexcludedprefixes"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/inject/injectipcontext"
 )
 
 func TestExcludedPrefixesClient_Request_SanityCheck(t *testing.T) {

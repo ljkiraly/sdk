@@ -24,8 +24,8 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/adapters"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/adapters"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
 )
 
 func TestNewNetworkServiceClientShouldNotPanic(t *testing.T) {

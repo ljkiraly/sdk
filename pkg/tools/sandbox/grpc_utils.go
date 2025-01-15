@@ -26,9 +26,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/tracing"
+	"github.com/ljkiraly/sdk/pkg/tools/grpcutils"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/tracing"
 )
 
 func serve(ctx context.Context, t *testing.T, u *url.URL, register func(server *grpc.Server)) {

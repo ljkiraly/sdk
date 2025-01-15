@@ -30,9 +30,9 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/journal"
-	"github.com/networkservicemesh/sdk/pkg/tools/clock"
-	"github.com/networkservicemesh/sdk/pkg/tools/clockmock"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/journal"
+	"github.com/ljkiraly/sdk/pkg/tools/clock"
+	"github.com/ljkiraly/sdk/pkg/tools/clockmock"
 )
 
 func TestConnect(t *testing.T) {

@@ -24,8 +24,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/monitorconnection/authorize"
-	"github.com/networkservicemesh/sdk/pkg/tools/opa"
+	"github.com/ljkiraly/sdk/pkg/tools/monitorconnection/authorize"
+	"github.com/ljkiraly/sdk/pkg/tools/opa"
 )
 
 func TestWithServiceConnectionPolicy(t *testing.T) {

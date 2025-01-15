@@ -31,14 +31,14 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/begin"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/null"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/refresh"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
-	"github.com/networkservicemesh/sdk/pkg/registry/utils/checks/checknse"
-	"github.com/networkservicemesh/sdk/pkg/tools/clock"
-	"github.com/networkservicemesh/sdk/pkg/tools/clockmock"
-	"github.com/networkservicemesh/sdk/pkg/tools/interdomain"
+	"github.com/ljkiraly/sdk/pkg/registry/common/begin"
+	"github.com/ljkiraly/sdk/pkg/registry/common/null"
+	"github.com/ljkiraly/sdk/pkg/registry/common/refresh"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/registry/utils/checks/checknse"
+	"github.com/ljkiraly/sdk/pkg/tools/clock"
+	"github.com/ljkiraly/sdk/pkg/tools/clockmock"
+	"github.com/ljkiraly/sdk/pkg/tools/interdomain"
 )
 
 const (

@@ -28,7 +28,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/dnsresolve"
+	"github.com/ljkiraly/sdk/pkg/registry/common/dnsresolve"
 )
 
 // NewFakeResolver returns a fake Resolver that can have records added

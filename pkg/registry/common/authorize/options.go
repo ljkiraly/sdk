@@ -20,7 +20,7 @@ import (
 	"github.com/edwarnicke/genericsync"
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/opa"
+	"github.com/ljkiraly/sdk/pkg/tools/opa"
 )
 
 type options struct {

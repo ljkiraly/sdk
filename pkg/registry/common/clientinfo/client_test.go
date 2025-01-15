@@ -26,7 +26,7 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/clientinfo"
+	"github.com/ljkiraly/sdk/pkg/registry/common/clientinfo"
 )
 
 func TestLabelsClient(t *testing.T) {

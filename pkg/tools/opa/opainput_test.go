@@ -27,7 +27,7 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/opa"
+	"github.com/ljkiraly/sdk/pkg/tools/opa"
 
 	"github.com/stretchr/testify/assert"
 

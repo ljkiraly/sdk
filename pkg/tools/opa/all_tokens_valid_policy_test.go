@@ -26,7 +26,7 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/opa"
+	"github.com/ljkiraly/sdk/pkg/tools/opa"
 )
 
 func TestWithAllTokensValidPolicy(t *testing.T) {

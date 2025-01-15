@@ -34,17 +34,17 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/cls"
 	kernelmech "github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/clientconn"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/monitor"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/checks/checkcontext"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/clientconn"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/monitor"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/checks/checkcontext"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/metadata"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/sandbox"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/tools/grpcutils"
+	"github.com/ljkiraly/sdk/pkg/tools/sandbox"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/adapters"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/adapters"
 )
 
 func TestMonitorServer(t *testing.T) {

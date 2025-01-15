@@ -24,7 +24,7 @@ import (
 
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/registry/utils/metadata"
 )
 
 type key struct{}

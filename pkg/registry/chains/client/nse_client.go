@@ -25,18 +25,18 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/authorize"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/begin"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/clientconn"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/connect"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/dial"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/grpcmetadata"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/heal"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/null"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/refresh"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/retry"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/registry/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/registry/common/authorize"
+	"github.com/ljkiraly/sdk/pkg/registry/common/begin"
+	"github.com/ljkiraly/sdk/pkg/registry/common/clientconn"
+	"github.com/ljkiraly/sdk/pkg/registry/common/connect"
+	"github.com/ljkiraly/sdk/pkg/registry/common/dial"
+	"github.com/ljkiraly/sdk/pkg/registry/common/grpcmetadata"
+	"github.com/ljkiraly/sdk/pkg/registry/common/heal"
+	"github.com/ljkiraly/sdk/pkg/registry/common/null"
+	"github.com/ljkiraly/sdk/pkg/registry/common/refresh"
+	"github.com/ljkiraly/sdk/pkg/registry/common/retry"
+	"github.com/ljkiraly/sdk/pkg/registry/core/chain"
+	"github.com/ljkiraly/sdk/pkg/registry/utils/metadata"
 )
 
 // NewNetworkServiceEndpointRegistryClient creates a new NewNetworkServiceEndpointRegistryClient that can be used for NSE registration.

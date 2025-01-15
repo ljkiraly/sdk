@@ -25,25 +25,25 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/trimpath"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/trimpath"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/metadata"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/begin"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/begin"
 
 	"github.com/google/uuid"
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/authorize"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/monitor"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/timeout"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/updatepath"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/updatetoken"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
-	authmonitor "github.com/networkservicemesh/sdk/pkg/tools/monitorconnection/authorize"
-	"github.com/networkservicemesh/sdk/pkg/tools/monitorconnection/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/authorize"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/monitor"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/timeout"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/updatepath"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/updatetoken"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/tools/grpcutils"
+	authmonitor "github.com/ljkiraly/sdk/pkg/tools/monitorconnection/authorize"
+	"github.com/ljkiraly/sdk/pkg/tools/monitorconnection/next"
+	"github.com/ljkiraly/sdk/pkg/tools/token"
 )
 
 // Endpoint - aggregates the APIs:

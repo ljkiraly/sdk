@@ -22,7 +22,7 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/extend"
+	"github.com/ljkiraly/sdk/pkg/tools/extend"
 )
 
 type monitorConnectionMonitorConnectionsServer struct {

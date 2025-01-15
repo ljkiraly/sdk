@@ -27,7 +27,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/opa"
+	"github.com/ljkiraly/sdk/pkg/tools/opa"
 )
 
 func TestNoTokensExpiredPolicy(t *testing.T) {

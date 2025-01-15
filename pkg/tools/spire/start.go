@@ -31,7 +31,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/opa"
+	"github.com/ljkiraly/sdk/pkg/tools/opa"
 
 	"github.com/edwarnicke/exechelper"
 	"github.com/sirupsen/logrus"

@@ -34,17 +34,17 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	nsclient "github.com/networkservicemesh/sdk/pkg/networkservice/chains/client"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/heal"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/null"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/checks/checkrequest"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/checks/checkresponse"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/count"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/inject/injecterror"
-	registryclient "github.com/networkservicemesh/sdk/pkg/registry/chains/client"
-	"github.com/networkservicemesh/sdk/pkg/tools/clock"
-	"github.com/networkservicemesh/sdk/pkg/tools/clockmock"
-	"github.com/networkservicemesh/sdk/pkg/tools/sandbox"
+	nsclient "github.com/ljkiraly/sdk/pkg/networkservice/chains/client"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/heal"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/null"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/checks/checkrequest"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/checks/checkresponse"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/count"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/inject/injecterror"
+	registryclient "github.com/ljkiraly/sdk/pkg/registry/chains/client"
+	"github.com/ljkiraly/sdk/pkg/tools/clock"
+	"github.com/ljkiraly/sdk/pkg/tools/clockmock"
+	"github.com/ljkiraly/sdk/pkg/tools/sandbox"
 )
 
 const (
@@ -250,7 +250,7 @@ func TestNSMGRHealEndpoint_DataPlaneBroken_CtrlPlaneHealthy(t *testing.T) {
 }
 
 func TestNSMGRHealEndpoint_DatapathHealthy_CtrlPlaneBroken(t *testing.T) {
-	t.Skip("https://github.com/networkservicemesh/sdk/issues/1573")
+	t.Skip("https://github.com/ljkiraly/sdk/issues/1573")
 
 	t.Cleanup(func() { goleak.VerifyNone(t) })
 	ctx, cancel := context.WithTimeout(context.Background(), timeout)

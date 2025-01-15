@@ -19,7 +19,7 @@ package point2pointipam
 import (
 	"net"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/ippool"
+	"github.com/ljkiraly/sdk/pkg/tools/ippool"
 )
 
 func exclude(prefixes ...string) (ipv4exclude, ipv6exclude *ippool.IPPool) {

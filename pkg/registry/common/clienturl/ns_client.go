@@ -24,8 +24,8 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/registry"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/clienturlctx"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/tools/clienturlctx"
 )
 
 type clientURLNSClient struct {

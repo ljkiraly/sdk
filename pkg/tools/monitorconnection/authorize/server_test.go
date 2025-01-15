@@ -34,8 +34,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spiffe/go-spiffe/v2/spiffeid"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/monitorconnection/authorize"
-	"github.com/networkservicemesh/sdk/pkg/tools/opa"
+	"github.com/ljkiraly/sdk/pkg/tools/monitorconnection/authorize"
+	"github.com/ljkiraly/sdk/pkg/tools/opa"
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 

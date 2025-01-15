@@ -29,7 +29,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/clientinfo"
+	"github.com/ljkiraly/sdk/pkg/registry/common/clientinfo"
 )
 
 func setEnvs(envs map[string]string) error {

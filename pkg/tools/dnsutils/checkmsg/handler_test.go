@@ -24,7 +24,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/checkmsg"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/checkmsg"
 )
 
 type responseWriter struct {

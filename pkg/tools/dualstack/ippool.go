@@ -22,7 +22,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/ippool"
+	"github.com/ljkiraly/sdk/pkg/tools/ippool"
 )
 
 // IPPool holds available IPv4 and IPv6 addresses in the structure of red-black tree

@@ -26,10 +26,10 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/switchcase"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/checks/checkcontext"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/count"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/switchcase"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/checks/checkcontext"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/count"
 )
 
 func TestSwitchClient(t *testing.T) {

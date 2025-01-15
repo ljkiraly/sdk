@@ -26,8 +26,8 @@ import (
 	"go.uber.org/goleak"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/begin"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/begin"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
 )
 
 func TestReRequestClient(t *testing.T) {

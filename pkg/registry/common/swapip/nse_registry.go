@@ -29,8 +29,8 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/registry"
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 type swapIPFindNSEServer struct {

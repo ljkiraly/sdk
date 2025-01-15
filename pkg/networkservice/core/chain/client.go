@@ -21,8 +21,8 @@ package chain
 import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/trace"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/trace"
 )
 
 // NewNetworkServiceClient - chains together a list of networkservice.NetworkServiceClient with tracing

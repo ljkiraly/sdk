@@ -22,7 +22,7 @@ package recvfd
 import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/null"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/null"
 )
 
 // NewClient - returns client chain element to recv FDs over the connection (if possible) for any Mechanism.Parameters[common.InodeURL]

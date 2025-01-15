@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/cidr"
+	"github.com/ljkiraly/sdk/pkg/tools/cidr"
 )
 
 func Test_CidrGroupsDecoder_EmptyInput(t *testing.T) {

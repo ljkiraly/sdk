@@ -27,7 +27,7 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/registry"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
 )
 
 // NewNSClient - returns NetworkServiceRegistryClient that checks the context passed in from the previous NSClient in the chain

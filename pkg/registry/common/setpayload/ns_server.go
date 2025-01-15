@@ -23,7 +23,7 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice/payload"
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
 )
 
 type setPayloadNSServer struct {

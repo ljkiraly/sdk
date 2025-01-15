@@ -23,17 +23,17 @@ import (
 	"github.com/google/uuid"
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/begin"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/clientconn"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/clienturl"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/connect"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/dial"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/null"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/refresh"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/trimpath"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/updatepath"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/begin"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/clientconn"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/clienturl"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/connect"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/dial"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/null"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/refresh"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/trimpath"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/updatepath"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/metadata"
 )
 
 // NewClient - returns case NSM client.

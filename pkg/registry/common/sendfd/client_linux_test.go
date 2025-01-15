@@ -28,8 +28,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/sendfd"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/registry/common/sendfd"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
 )
 
 func TestSendFDNSEClient_CallsNextUnregister(t *testing.T) {

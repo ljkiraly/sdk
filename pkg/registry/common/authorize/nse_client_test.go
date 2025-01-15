@@ -23,10 +23,10 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/registry"
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/authorize"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/grpcmetadata"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/registry/utils/count"
+	"github.com/ljkiraly/sdk/pkg/registry/common/authorize"
+	"github.com/ljkiraly/sdk/pkg/registry/common/grpcmetadata"
+	"github.com/ljkiraly/sdk/pkg/registry/core/chain"
+	"github.com/ljkiraly/sdk/pkg/registry/utils/count"
 
 	"go.uber.org/goleak"
 )

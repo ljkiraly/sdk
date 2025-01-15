@@ -26,10 +26,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/clienturlctx"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/dnsconfigs"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/searches"
+	"github.com/ljkiraly/sdk/pkg/tools/clienturlctx"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/dnsconfigs"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/next"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/searches"
 )
 
 type responseWriter struct {

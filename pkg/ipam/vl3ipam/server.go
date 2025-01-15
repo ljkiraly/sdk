@@ -26,8 +26,8 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/ipam"
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/ippool"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/ippool"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 // ErrUndefined means that operation is not supported

@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/connectioncontext/ipcontext/vl3"
+	"github.com/ljkiraly/sdk/pkg/networkservice/connectioncontext/ipcontext/vl3"
 )
 
 func TestSubscribtions(t *testing.T) {

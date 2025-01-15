@@ -23,13 +23,13 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/adapters"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/streamcontext"
+	"github.com/ljkiraly/sdk/pkg/registry/core/adapters"
+	"github.com/ljkiraly/sdk/pkg/registry/core/streamcontext"
 
 	"github.com/golang/protobuf/ptypes/empty"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
 
 	"github.com/networkservicemesh/api/pkg/api/registry"
 

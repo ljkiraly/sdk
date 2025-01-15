@@ -22,10 +22,10 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/client"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/endpoint"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/connect"
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
+	"github.com/ljkiraly/sdk/pkg/networkservice/chains/client"
+	"github.com/ljkiraly/sdk/pkg/networkservice/chains/endpoint"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/connect"
+	"github.com/ljkiraly/sdk/pkg/tools/token"
 )
 
 // ExampleForwarder - example of how to use the connect chain element in a forwarder

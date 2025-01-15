@@ -21,10 +21,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/trace/traceconcise"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/trace/traceverbose"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/log/logruslogger"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/trace/traceconcise"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/trace/traceverbose"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log/logruslogger"
 
 	"github.com/golang/protobuf/ptypes/empty"
 

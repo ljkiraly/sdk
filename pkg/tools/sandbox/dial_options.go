@@ -21,8 +21,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
-	"github.com/networkservicemesh/sdk/pkg/tools/tracing"
+	"github.com/ljkiraly/sdk/pkg/tools/token"
+	"github.com/ljkiraly/sdk/pkg/tools/tracing"
 )
 
 type dialOpts struct {

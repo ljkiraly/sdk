@@ -19,7 +19,7 @@ package next
 import (
 	"context"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/streamcontext"
+	"github.com/ljkiraly/sdk/pkg/registry/core/streamcontext"
 
 	"github.com/golang/protobuf/ptypes/empty"
 

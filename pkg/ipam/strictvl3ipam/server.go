@@ -23,8 +23,8 @@ import (
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/connectioncontext/ipcontext/vl3"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/connectioncontext/ipcontext/vl3"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
 )
 
 type strictVl3IPAMServer struct {

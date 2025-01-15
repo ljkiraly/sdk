@@ -27,8 +27,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/goleak"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/mechanisms/vxlan/vni"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/mechanisms/vxlan/vni"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
 )
 
 func TestVNIClient(t *testing.T) {

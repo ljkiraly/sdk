@@ -29,7 +29,7 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/eventchannel"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/eventchannel"
 )
 
 const (

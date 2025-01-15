@@ -28,10 +28,10 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/registry"
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/clienturlctx"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/matchutils"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/tools/clienturlctx"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/matchutils"
 )
 
 type discoverForwarderServer struct {
@@ -115,7 +115,7 @@ func (d *discoverForwarderServer) Request(ctx context.Context, request *networks
 	var candidatesErr = errors.New("all forwarders have failed")
 
 	// TODO: Should we consider about load balancing?
-	// https://github.com/networkservicemesh/sdk/issues/790
+	// https://github.com/ljkiraly/sdk/issues/790
 	for i, candidate := range nses {
 		u, err := url.Parse(candidate.Url)
 		if err != nil {

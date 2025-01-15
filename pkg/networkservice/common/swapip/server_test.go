@@ -31,11 +31,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/swapip"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/checks/checkrequest"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/checks/checkresponse"
-	"github.com/networkservicemesh/sdk/pkg/tools/fs"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/swapip"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/checks/checkrequest"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/checks/checkresponse"
+	"github.com/ljkiraly/sdk/pkg/tools/fs"
 )
 
 func TestSwapIPServer_Request(t *testing.T) {

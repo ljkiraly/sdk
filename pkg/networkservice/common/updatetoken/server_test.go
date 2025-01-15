@@ -24,13 +24,13 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/adapters"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/adapters"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/updatepath"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/updatetoken"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/updatepath"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/updatetoken"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
 
 	"github.com/golang/protobuf/ptypes/timestamp"
 	"go.uber.org/goleak"

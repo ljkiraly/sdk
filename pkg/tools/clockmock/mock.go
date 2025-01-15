@@ -26,7 +26,7 @@ import (
 
 	libclock "github.com/benbjohnson/clock"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/clock"
+	"github.com/ljkiraly/sdk/pkg/tools/clock"
 )
 
 var _ clock.Clock = (*Mock)(nil)

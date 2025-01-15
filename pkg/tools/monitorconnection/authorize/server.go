@@ -22,8 +22,8 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/spiffe/go-spiffe/v2/spiffeid"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/monitorconnection/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/spire"
+	"github.com/ljkiraly/sdk/pkg/tools/monitorconnection/next"
+	"github.com/ljkiraly/sdk/pkg/tools/spire"
 )
 
 type authorizeMonitorConnectionsServer struct {

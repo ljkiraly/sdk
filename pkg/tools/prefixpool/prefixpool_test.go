@@ -30,7 +30,7 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/prefixpool"
+	"github.com/ljkiraly/sdk/pkg/tools/prefixpool"
 )
 
 func TestEmptryPrefixPoolIsNotPanics(t *testing.T) {

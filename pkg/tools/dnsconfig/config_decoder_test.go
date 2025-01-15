@@ -24,7 +24,7 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsconfig"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsconfig"
 )
 
 func Test_DNSConfigsDecoder_ShouldBeParsedFromJson(t *testing.T) {

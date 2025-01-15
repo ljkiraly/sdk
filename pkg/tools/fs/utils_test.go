@@ -29,7 +29,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/fs"
+	"github.com/ljkiraly/sdk/pkg/tools/fs"
 )
 
 func Test_WatchFile(t *testing.T) {

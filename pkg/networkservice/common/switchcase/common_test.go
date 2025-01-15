@@ -24,7 +24,7 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/switchcase"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/switchcase"
 )
 
 type sample struct {

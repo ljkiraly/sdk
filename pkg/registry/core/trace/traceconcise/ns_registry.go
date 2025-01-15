@@ -29,8 +29,8 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/streamcontext"
-	"github.com/networkservicemesh/sdk/pkg/tools/typeutils"
+	"github.com/ljkiraly/sdk/pkg/registry/core/streamcontext"
+	"github.com/ljkiraly/sdk/pkg/tools/typeutils"
 )
 
 type conciseNetworkServiceRegistryClient struct {

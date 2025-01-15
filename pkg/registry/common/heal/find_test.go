@@ -26,9 +26,9 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/nsmgr"
-	registryclient "github.com/networkservicemesh/sdk/pkg/registry/chains/client"
-	"github.com/networkservicemesh/sdk/pkg/tools/sandbox"
+	"github.com/ljkiraly/sdk/pkg/networkservice/chains/nsmgr"
+	registryclient "github.com/ljkiraly/sdk/pkg/registry/chains/client"
+	"github.com/ljkiraly/sdk/pkg/tools/sandbox"
 )
 
 func TestHealClient_FindTest(t *testing.T) {

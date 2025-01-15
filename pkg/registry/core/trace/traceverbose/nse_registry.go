@@ -22,8 +22,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/streamcontext"
-	"github.com/networkservicemesh/sdk/pkg/tools/typeutils"
+	"github.com/ljkiraly/sdk/pkg/registry/core/streamcontext"
+	"github.com/ljkiraly/sdk/pkg/tools/typeutils"
 
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/pkg/errors"

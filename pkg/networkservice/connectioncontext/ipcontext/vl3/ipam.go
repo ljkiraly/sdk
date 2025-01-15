@@ -22,7 +22,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/ippool"
+	"github.com/ljkiraly/sdk/pkg/tools/ippool"
 )
 
 // IPAM manages vl3 prefixes

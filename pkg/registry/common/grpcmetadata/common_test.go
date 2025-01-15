@@ -19,12 +19,12 @@ package grpcmetadata_test
 import (
 	"time"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/clockmock"
+	"github.com/ljkiraly/sdk/pkg/tools/clockmock"
 
 	"github.com/golang-jwt/jwt/v4"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
+	"github.com/ljkiraly/sdk/pkg/tools/token"
 )
 
 const (

@@ -20,17 +20,17 @@ import (
 	"context"
 	"testing"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/streamcontext"
-	"github.com/networkservicemesh/sdk/pkg/registry/utils/checks/checkcontext"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/registry/core/streamcontext"
+	"github.com/ljkiraly/sdk/pkg/registry/utils/checks/checkcontext"
 
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/networkservicemesh/api/pkg/api/registry"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/adapters"
-	streamchannel "github.com/networkservicemesh/sdk/pkg/registry/core/streamchannel"
+	"github.com/ljkiraly/sdk/pkg/registry/core/adapters"
+	streamchannel "github.com/ljkiraly/sdk/pkg/registry/core/streamchannel"
 )
 
 type echoNetworkServiceEndpointClient struct{}

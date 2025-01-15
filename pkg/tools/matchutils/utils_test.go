@@ -26,7 +26,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/matchutils"
+	"github.com/ljkiraly/sdk/pkg/tools/matchutils"
 )
 
 func TestNSMatch(t *testing.T) {

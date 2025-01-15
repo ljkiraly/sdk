@@ -31,16 +31,16 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils"
-	dnschain "github.com/networkservicemesh/sdk/pkg/tools/dnsutils/chain"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/dnsconfigs"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/fanout"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/memory"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/noloop"
-	"github.com/networkservicemesh/sdk/pkg/tools/dnsutils/norecursion"
-	"github.com/networkservicemesh/sdk/pkg/tools/ippool"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils"
+	dnschain "github.com/ljkiraly/sdk/pkg/tools/dnsutils/chain"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/dnsconfigs"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/fanout"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/memory"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/noloop"
+	"github.com/ljkiraly/sdk/pkg/tools/dnsutils/norecursion"
+	"github.com/ljkiraly/sdk/pkg/tools/ippool"
 )
 
 type vl3DNSServer struct {

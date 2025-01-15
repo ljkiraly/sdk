@@ -21,7 +21,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 const (

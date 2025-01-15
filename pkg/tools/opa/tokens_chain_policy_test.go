@@ -28,8 +28,8 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/opa"
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
+	"github.com/ljkiraly/sdk/pkg/tools/opa"
+	"github.com/ljkiraly/sdk/pkg/tools/token"
 )
 
 type serviceSample struct {

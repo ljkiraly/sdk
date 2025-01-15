@@ -30,7 +30,7 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/vxlan"
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/wireguard"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/mechanismpriority"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/mechanismpriority"
 )
 
 func TestMechanismPriorityClient_Request(t *testing.T) {

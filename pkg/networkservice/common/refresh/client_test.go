@@ -31,21 +31,21 @@ import (
 	"go.uber.org/goleak"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/begin"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/refresh"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/updatepath"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/updatetoken"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/adapters"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	countutil "github.com/networkservicemesh/sdk/pkg/networkservice/utils/count"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/inject/injectclock"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/inject/injecterror"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
-	"github.com/networkservicemesh/sdk/pkg/tools/clock"
-	"github.com/networkservicemesh/sdk/pkg/tools/clockmock"
-	"github.com/networkservicemesh/sdk/pkg/tools/sandbox"
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/begin"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/refresh"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/updatepath"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/updatetoken"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/adapters"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
+	countutil "github.com/ljkiraly/sdk/pkg/networkservice/utils/count"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/inject/injectclock"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/inject/injecterror"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/tools/clock"
+	"github.com/ljkiraly/sdk/pkg/tools/clockmock"
+	"github.com/ljkiraly/sdk/pkg/tools/sandbox"
+	"github.com/ljkiraly/sdk/pkg/tools/token"
 )
 
 const (
@@ -257,7 +257,7 @@ func TestRefreshClient_CheckRaceConditions(t *testing.T) {
 }
 
 func TestRefreshClient_Sandbox(t *testing.T) {
-	t.Skip("https://github.com/networkservicemesh/sdk/issues/839")
+	t.Skip("https://github.com/ljkiraly/sdk/issues/839")
 
 	t.Cleanup(func() { goleak.VerifyNone(t) })
 

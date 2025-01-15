@@ -28,7 +28,7 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/cls"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
 )
 
 // NewConnection - create connection for testing
@@ -124,16 +124,16 @@ type CustomError struct{}
 // Error - error message example
 func (*CustomError) Error() string {
 	return `Error returned from api/pkg/api/networkservice/networkServiceClient.Close
-github.com/networkservicemesh/sdk/pkg/networkservice/core/trace.(*beginTraceClient).Close
-	/root/go/pkg/mod/github.com/networkservicemesh/sdk@v0.5.1-0.20210929180427-ec235de055f1/pkg/networkservice/core/trace/client.go:85
-github.com/networkservicemesh/sdk/pkg/networkservice/core/next.(*nextClient).Close
-	/root/go/pkg/mod/github.com/networkservicemesh/sdk@v0.5.1-0.20210929180427-ec235de055f1/pkg/networkservice/core/next/client.go:65
-github.com/networkservicemesh/sdk/pkg/networkservice/core/next.(*nextClient).Close
-	/root/go/pkg/mod/github.com/networkservicemesh/sdk@v0.5.1-0.20210929180427-ec235de055f1/pkg/networkservice/core/next/client.go:65
-github.com/networkservicemesh/sdk/pkg/networkservice/core/trace.(*endTraceClient).Close
-	/root/go/pkg/mod/github.com/networkservicemesh/sdk@v0.5.1-0.20210929180427-ec235de055f1/pkg/networkservice/core/trace/client.go:106
-github.com/networkservicemesh/sdk/pkg/networkservice/core/next.(*nextClient).Close
-	/root/go/pkg/mod/github.com/networkservicemesh/sdk@v0.5.1-0.20210929180427-ec235de055f1/pkg/networkservice/core/next/client.go:65`
+github.com/ljkiraly/sdk/pkg/networkservice/core/trace.(*beginTraceClient).Close
+	/root/go/pkg/mod/github.com/ljkiraly/sdk@v0.5.1-0.20210929180427-ec235de055f1/pkg/networkservice/core/trace/client.go:85
+github.com/ljkiraly/sdk/pkg/networkservice/core/next.(*nextClient).Close
+	/root/go/pkg/mod/github.com/ljkiraly/sdk@v0.5.1-0.20210929180427-ec235de055f1/pkg/networkservice/core/next/client.go:65
+github.com/ljkiraly/sdk/pkg/networkservice/core/next.(*nextClient).Close
+	/root/go/pkg/mod/github.com/ljkiraly/sdk@v0.5.1-0.20210929180427-ec235de055f1/pkg/networkservice/core/next/client.go:65
+github.com/ljkiraly/sdk/pkg/networkservice/core/trace.(*endTraceClient).Close
+	/root/go/pkg/mod/github.com/ljkiraly/sdk@v0.5.1-0.20210929180427-ec235de055f1/pkg/networkservice/core/trace/client.go:106
+github.com/ljkiraly/sdk/pkg/networkservice/core/next.(*nextClient).Close
+	/root/go/pkg/mod/github.com/ljkiraly/sdk@v0.5.1-0.20210929180427-ec235de055f1/pkg/networkservice/core/next/client.go:65`
 }
 
 // StackTrace - testing errors utility

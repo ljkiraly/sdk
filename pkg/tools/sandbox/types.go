@@ -24,14 +24,14 @@ import (
 	registryapi "github.com/networkservicemesh/api/pkg/api/registry"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/endpoint"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/nsmgr"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/nsmgrproxy"
-	"github.com/networkservicemesh/sdk/pkg/registry"
-	registryclient "github.com/networkservicemesh/sdk/pkg/registry/chains/client"
-	"github.com/networkservicemesh/sdk/pkg/registry/chains/proxydns"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/dnsresolve"
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
+	"github.com/ljkiraly/sdk/pkg/networkservice/chains/endpoint"
+	"github.com/ljkiraly/sdk/pkg/networkservice/chains/nsmgr"
+	"github.com/ljkiraly/sdk/pkg/networkservice/chains/nsmgrproxy"
+	"github.com/ljkiraly/sdk/pkg/registry"
+	registryclient "github.com/ljkiraly/sdk/pkg/registry/chains/client"
+	"github.com/ljkiraly/sdk/pkg/registry/chains/proxydns"
+	"github.com/ljkiraly/sdk/pkg/registry/common/dnsresolve"
+	"github.com/ljkiraly/sdk/pkg/tools/token"
 )
 
 // SupplyNSMgrProxyFunc nsmgr proxy

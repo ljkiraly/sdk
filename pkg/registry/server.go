@@ -23,7 +23,7 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/registry"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
+	"github.com/ljkiraly/sdk/pkg/tools/grpcutils"
 )
 
 // Registry - aggregates the APIs:

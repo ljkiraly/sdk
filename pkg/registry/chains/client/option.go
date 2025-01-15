@@ -26,7 +26,7 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/clienturl"
+	"github.com/ljkiraly/sdk/pkg/registry/common/clienturl"
 )
 
 // Option is an option pattern for NewNetworkServiceRegistryClient, NewNetworkServiceEndpointRegistryClient

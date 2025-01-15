@@ -26,8 +26,8 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/trace/testutil"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/trace/traceverbose"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/trace/testutil"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/trace/traceverbose"
 
 	"github.com/stretchr/testify/require"
 )

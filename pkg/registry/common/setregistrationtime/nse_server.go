@@ -25,8 +25,8 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/registry"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/clock"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/tools/clock"
 )
 
 type setregtimeNSEServer struct {

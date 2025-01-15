@@ -27,14 +27,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/clock"
-	"github.com/networkservicemesh/sdk/pkg/tools/clockmock"
+	"github.com/ljkiraly/sdk/pkg/tools/clock"
+	"github.com/ljkiraly/sdk/pkg/tools/clockmock"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/memory"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/setregistrationtime"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/streamchannel"
-	"github.com/networkservicemesh/sdk/pkg/registry/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/registry/common/memory"
+	"github.com/ljkiraly/sdk/pkg/registry/common/setregistrationtime"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/registry/core/streamchannel"
+	"github.com/ljkiraly/sdk/pkg/registry/utils/metadata"
 )
 
 func testNSE() *registry.NetworkServiceEndpoint {

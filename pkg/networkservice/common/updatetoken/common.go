@@ -26,7 +26,7 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/peer"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
+	"github.com/ljkiraly/sdk/pkg/tools/token"
 )
 
 func updateToken(ctx context.Context, conn *networkservice.Connection, tokenGenerator token.GeneratorFunc) error {

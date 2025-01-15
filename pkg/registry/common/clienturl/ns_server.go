@@ -23,9 +23,9 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/registry"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/streamcontext"
-	"github.com/networkservicemesh/sdk/pkg/tools/clienturlctx"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/registry/core/streamcontext"
+	"github.com/ljkiraly/sdk/pkg/tools/clienturlctx"
 )
 
 type clientURLNSServer struct {

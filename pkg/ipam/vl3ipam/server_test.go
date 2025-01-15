@@ -30,8 +30,8 @@ import (
 
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/networkservicemesh/sdk/pkg/ipam/vl3ipam"
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
+	"github.com/ljkiraly/sdk/pkg/ipam/vl3ipam"
+	"github.com/ljkiraly/sdk/pkg/tools/grpcutils"
 )
 
 // nolint:unparam

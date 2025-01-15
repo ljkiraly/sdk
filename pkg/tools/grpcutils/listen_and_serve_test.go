@@ -29,7 +29,7 @@ import (
 	"go.uber.org/goleak"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
+	"github.com/ljkiraly/sdk/pkg/tools/grpcutils"
 )
 
 func TestListenAndServe_NotExistsFolder(t *testing.T) {

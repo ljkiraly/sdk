@@ -24,7 +24,7 @@ import (
 
 	"go.opentelemetry.io/otel/metric"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/metadata"
 )
 
 type keyType struct{}

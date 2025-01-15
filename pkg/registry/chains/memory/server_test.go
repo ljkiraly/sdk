@@ -32,9 +32,9 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice/payload"
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	registryclient "github.com/networkservicemesh/sdk/pkg/registry/chains/client"
+	registryclient "github.com/ljkiraly/sdk/pkg/registry/chains/client"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/sandbox"
+	"github.com/ljkiraly/sdk/pkg/tools/sandbox"
 )
 
 func Test_RegistryMemory_ShouldSetDefaultPayload(t *testing.T) {

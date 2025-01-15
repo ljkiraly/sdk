@@ -30,10 +30,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	registryclient "github.com/networkservicemesh/sdk/pkg/registry/chains/client"
+	registryclient "github.com/ljkiraly/sdk/pkg/registry/chains/client"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/sandbox"
+	"github.com/ljkiraly/sdk/pkg/tools/grpcutils"
+	"github.com/ljkiraly/sdk/pkg/tools/sandbox"
 )
 
 /*

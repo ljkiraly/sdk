@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 
 	"github.com/fsnotify/fsnotify"
 )

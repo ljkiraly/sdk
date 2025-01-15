@@ -24,13 +24,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/retry"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/registry/utils/checks/checkcontext"
-	"github.com/networkservicemesh/sdk/pkg/registry/utils/count"
-	"github.com/networkservicemesh/sdk/pkg/registry/utils/inject/injecterror"
-	"github.com/networkservicemesh/sdk/pkg/tools/clock"
-	"github.com/networkservicemesh/sdk/pkg/tools/clockmock"
+	"github.com/ljkiraly/sdk/pkg/registry/common/retry"
+	"github.com/ljkiraly/sdk/pkg/registry/core/chain"
+	"github.com/ljkiraly/sdk/pkg/registry/utils/checks/checkcontext"
+	"github.com/ljkiraly/sdk/pkg/registry/utils/count"
+	"github.com/ljkiraly/sdk/pkg/registry/utils/inject/injecterror"
+	"github.com/ljkiraly/sdk/pkg/tools/clock"
+	"github.com/ljkiraly/sdk/pkg/tools/clockmock"
 )
 
 func TestNSERetryClient_Register(t *testing.T) {

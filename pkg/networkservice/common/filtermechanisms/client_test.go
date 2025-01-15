@@ -29,8 +29,8 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/vxlan"
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/filtermechanisms"
-	"github.com/networkservicemesh/sdk/pkg/tools/clienturlctx"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/filtermechanisms"
+	"github.com/ljkiraly/sdk/pkg/tools/clienturlctx"
 )
 
 func TestFilterMechanismsClient_Request(t *testing.T) {

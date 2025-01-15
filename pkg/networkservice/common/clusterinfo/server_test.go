@@ -26,7 +26,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/clusterinfo"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/clusterinfo"
 )
 
 func TestReadClusterName(t *testing.T) {

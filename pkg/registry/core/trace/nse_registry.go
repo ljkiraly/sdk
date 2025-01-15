@@ -25,10 +25,10 @@ import (
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/trace/traceconcise"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/trace/traceverbose"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/log/logruslogger"
+	"github.com/ljkiraly/sdk/pkg/registry/core/trace/traceconcise"
+	"github.com/ljkiraly/sdk/pkg/registry/core/trace/traceverbose"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log/logruslogger"
 )
 
 type traceNetworkServiceEndpointRegistryClient struct {

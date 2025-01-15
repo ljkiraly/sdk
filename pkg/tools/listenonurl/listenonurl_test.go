@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/listenonurl"
+	"github.com/ljkiraly/sdk/pkg/tools/listenonurl"
 )
 
 func TestGetPublicURL(t *testing.T) {

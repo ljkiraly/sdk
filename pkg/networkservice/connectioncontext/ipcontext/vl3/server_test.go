@@ -22,14 +22,14 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/ipam/strictvl3ipam"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/connectioncontext/ipcontext/vl3"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/ipam/strictvl3ipam"
+	"github.com/ljkiraly/sdk/pkg/networkservice/connectioncontext/ipcontext/vl3"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
 
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/metadata"
 )
 
 func Test_NSC_ConnectsToVl3NSE(t *testing.T) {

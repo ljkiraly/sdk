@@ -26,7 +26,7 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/vfio"
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/nsurl"
+	"github.com/ljkiraly/sdk/pkg/tools/nsurl"
 )
 
 func must(u *url.URL, err error) *url.URL {

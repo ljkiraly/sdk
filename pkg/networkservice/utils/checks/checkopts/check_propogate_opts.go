@@ -22,8 +22,8 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/inject/injectopts"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/inject/injectopts"
 )
 
 // CheckPropogateOptsClient - returns NetworkServiceClient that checks to make sure the clientUnderTest is passing through the grpc.CallOptions

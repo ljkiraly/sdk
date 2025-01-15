@@ -22,7 +22,7 @@ package sendfd
 import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/null"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/null"
 )
 
 // NewClient - returns client which sends any "file://" Mechanism.Parameters[common.InodeURLs]s across the connection as fds (if possible) to the server

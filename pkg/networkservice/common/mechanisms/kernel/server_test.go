@@ -27,9 +27,9 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	kernelmech "github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/mechanisms/kernel"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/mechanisms/kernel"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/nanoid"
+	"github.com/ljkiraly/sdk/pkg/tools/nanoid"
 )
 
 func TestKernelMechanismServer_ShouldSetInterfaceName(t *testing.T) {
