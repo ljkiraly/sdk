@@ -23,4 +23,4 @@ jobs:
         "cmd-csi-driver",
         "cmd-dashboard-backend"]
     secrets:
-      token: ${{ secrets.NSM_BOT_GITHUB_TOKEN }}
+      token: ${{ secrets.BOT_TOKEN }}
