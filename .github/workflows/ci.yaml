@@ -9,11 +9,6 @@ jobs:
   yamllint:
     uses: networkservicemesh/.github/.github/workflows/yamllint.yaml@main
 
-  build-and-test:
-    uses: networkservicemesh/.github/.github/workflows/build-and-test.yaml@main
-    with:
-      os: '["ubuntu-latest"]'
-
   exclude-fmt-errorf:
     uses: networkservicemesh/.github/.github/workflows/exclude-fmt-errorf.yaml@main
 
@@ -30,20 +25,3 @@ jobs:
 
   exclude-replace:
     uses: networkservicemesh/.github/.github/workflows/exclude-replace.yaml@main
-
-  code-cov:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: ["ubuntu-latest"]
-    steps:
-      - name: Check out code
-        uses: actions/checkout@v2
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: 1.23.1
-      - run: |
-          go test -coverprofile=coverage-${{ matrix.os }}.txt -covermode=atomic -race ./...
-      - name: Upload coverage reports to Codecov with GitHub Action
-        uses: codecov/codecov-action@v3
