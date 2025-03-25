@@ -19,7 +19,6 @@ require (
 	github.com/golang/protobuf v1.5.3
 	github.com/google/go-cmp v0.6.0
 	github.com/google/uuid v1.3.1
-	github.com/ljkiraly/sdk v0.5.4
 	github.com/miekg/dns v1.1.50
 	github.com/nats-io/nats-streaming-server v0.24.6
 	github.com/nats-io/stan.go v0.10.3
