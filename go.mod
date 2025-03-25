@@ -1,4 +1,4 @@
-module github.com/networkservicemesh/sdk
+module github.com/ljkiraly/sdk
 
 go 1.23.0
 
